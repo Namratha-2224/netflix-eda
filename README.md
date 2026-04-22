@@ -4,51 +4,94 @@
 ![Pandas](https://img.shields.io/badge/Pandas-EDA-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
+---
+
 ## 📌 Project Overview
-Exploratory Data Analysis on Netflix Movies and TV Shows dataset from Kaggle.
-The goal is to uncover patterns and trends in Netflix content using Python.
+
+This project performs **Exploratory Data Analysis (EDA)** on Netflix Movies & TV Shows dataset to uncover patterns, trends, and platform strategies.
+
+---
+
+## 📊 Key Insights 🔥
+
+* 📌 Netflix has significantly more **Movies than TV Shows**, indicating a high-volume content strategy
+* 📌 **TV-MA rating dominates**, showing focus on mature audience
+* 📌 Rapid content growth observed between **2016–2019** (major expansion phase)
+* 📌 **USA and India lead content production**, highlighting global + regional dominance
+* 📌 Most movies fall in **80–120 minutes range**, optimized for viewer engagement
+
+---
+
+## 🖼️ Visualizations
+
+### 🎥 Movies vs TV Shows
+
+![Chart](images/1_movies_vs_tvshows.png)
+
+### 🌍 Top 10 Countries Producing Content
+
+![Chart](images/2_top_countries.png)
+
+### 📈 Content Growth Over Years
+
+![Chart](images/3_content_growth.png)
+
+### 🔥 Type vs Rating Heatmap
+
+![Chart](images/10_type_vs_rating_heatmap.png)
+
+---
 
 ## 📂 Dataset
-- Source: [Kaggle — Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
-- Rows: 8807 | Columns: 12
-- Features: title, type, director, cast, country, date_added, rating, duration, listed_in
 
-## 🛠️ Tools Used
-- Python 3.11
-- Pandas — data cleaning
-- Matplotlib & Seaborn — visualizations
-- Jupyter Notebook (VS Code)
+* Source: [Kaggle — Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+* Rows: 8807
+* Columns: 12
 
-## 📊 Visualizations & Insights
+---
 
-| # | Chart | Insight |
-|---|-------|---------|
-| 1 | Movies vs TV Shows | Netflix has more Movies than TV Shows |
-| 2 | Top 10 Countries | USA dominates, followed by India & UK |
-| 3 | Content Over Years | Massive growth from 2016–2019 |
-| 4 | Top Ratings | TV-MA dominates — targets mature audience |
-| 5 | Top Genres | International Movies & Dramas are biggest |
-| 6 | Movie Duration | Most movies are 80–120 minutes |
-| 7 | TV Show Seasons | Most shows have only 1 season |
-| 8 | Content by Month | January & July see most additions |
-| 9 | Top Directors | Jan Suter leads with most titles |
-| 10 | Type vs Rating Heatmap | TV-MA highest across both types |
+## 🛠️ Tech Stack
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Jupyter Notebook (VS Code)
+
+---
 
 ## 📁 Project Structure
+
 ```
 netflix-eda/
 ├── data/
 │   └── netflix_titles.csv
-├── notebooks/
-│   └── netflix_eda.ipynb
 ├── images/
-│   └── (10 chart PNGs)
+│   └── (charts PNGs)
+├── netflix_eda.ipynb
 ├── requirements.txt
 └── README.md
 ```
 
+---
+
 ## 🚀 How to Run
+
 ```bash
 pip install pandas matplotlib seaborn jupyter
-jupyter notebook notebooks/netflix_eda.ipynb
+jupyter notebook netflix_eda.ipynb
 ```
+
+---
+
+## ⭐ Conclusion
+
+This analysis highlights Netflix’s strategic focus on **global expansion, mature content, and movie-dominant catalog**, providing insights into how streaming platforms optimize engagement.
+
+---
+
+## 👩‍💻 Author
+
+- **Namratha Dirsumilli**
+- Artificial Intelligence & Data Science
+- Vishnu Institute of Technology
