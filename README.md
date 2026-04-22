@@ -25,21 +25,30 @@ This project performs **Exploratory Data Analysis (EDA)** on Netflix Movies & TV
 ## 🖼️ Visualizations
 
 ### 🎥 Movies vs TV Shows
+![Movies vs TV Shows](images/1_movies_vs_tvshows.png)
 
-![Chart](images/1_movies_vs_tvshows.png)
+➡️ Netflix has significantly more movies than TV shows, indicating a content strategy focused on high-volume, quick-consumption content.
+
+---
 
 ### 🌍 Top 10 Countries Producing Content
+![Top Countries](images/2_top_countries.png)
 
-![Chart](images/2_top_countries.png)
+➡️ The United States leads content production by a large margin, followed by India, showing both global dominance and regional expansion.
+
+---
 
 ### 📈 Content Growth Over Years
+![Content Growth](images/3_content_growth.png)
 
-![Chart](images/3_content_growth.png)
+➡️ Content additions surged rapidly between 2016–2019, reflecting Netflix’s aggressive expansion phase.
+
+---
 
 ### 🔥 Type vs Rating Heatmap
+![Heatmap](images/10_type_vs_rating_heatmap.png)
 
-![Chart](images/10_type_vs_rating_heatmap.png)
-
+➡️ TV-MA dominates across both movies and TV shows, indicating a strong focus on mature audience content.
 ---
 
 ## 📂 Dataset
