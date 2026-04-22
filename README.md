@@ -8,37 +8,52 @@
 
 ## 📌 Project Overview
 
-This project performs **Exploratory Data Analysis (EDA)** on Netflix Movies & TV Shows dataset to uncover patterns, trends, and platform strategies.
+This project performs Exploratory Data Analysis (EDA) on Netflix Movies & TV Shows dataset to uncover patterns, trends, and platform strategies.
 
 ---
 
-## 📊 Key Insights 🔥
+## 🎯 Business Problem
 
-* 📌 Netflix has significantly more **Movies than TV Shows**, indicating a high-volume content strategy
-* 📌 **TV-MA rating dominates**, showing focus on mature audience
-* 📌 Rapid content growth observed between **2016–2019** (major expansion phase)
-* 📌 **USA and India lead content production**, highlighting global + regional dominance
-* 📌 Most movies fall in **80–120 minutes range**, optimized for viewer engagement
+Netflix needs to understand:
+
+* What type of content drives engagement?
+* Which regions contribute most content?
+* What audience segment is targeted?
+
+This analysis explores content distribution, growth trends, and rating patterns to support strategic decisions.
+
+---
+
+## 📊 Key Insights
+
+* Netflix has significantly more Movies than TV Shows
+* TV-MA rating dominates, indicating focus on mature audiences
+* Rapid content growth between 2016–2019
+* USA and India lead content production
+* Most movies fall in 80–120 minutes range
 
 ---
 
 ## 🖼️ Visualizations
 
 ### 🎥 Movies vs TV Shows
+
 ![Movies vs TV Shows](images/1_movies_vs_tvshows.png)
 
-➡️ Netflix has significantly more movies than TV shows, indicating a content strategy focused on high-volume, quick-consumption content.
+➡️ Netflix has significantly more movies than TV shows, indicating a content-heavy strategy focused on quick consumption.
 
 ---
 
 ### 🌍 Top 10 Countries Producing Content
+
 ![Top Countries](images/2_top_countries.png)
 
-➡️ The United States leads content production by a large margin, followed by India, showing both global dominance and regional expansion.
+➡️ The United States dominates content production, followed by India, showing both global leadership and regional expansion.
 
 ---
 
 ### 📈 Content Growth Over Years
+
 ![Content Growth](images/3_content_growth.png)
 
 ➡️ Content additions surged rapidly between 2016–2019, reflecting Netflix’s aggressive expansion phase.
@@ -46,14 +61,32 @@ This project performs **Exploratory Data Analysis (EDA)** on Netflix Movies & TV
 ---
 
 ### 🔥 Type vs Rating Heatmap
+
 ![Heatmap](images/10_type_vs_rating_heatmap.png)
 
-➡️ TV-MA dominates across both movies and TV shows, indicating a strong focus on mature audience content.
+➡️ TV-MA dominates across both movies and TV shows, indicating strong focus on mature audience content.
+
+---
+
+### 📊 Movies vs TV Shows Trend (Advanced)
+
+![Trend](images/11_movies_vs_tv_trend.png)
+
+➡️ TV Shows have increased steadily after 2016, indicating Netflix’s shift towards long-form content.
+
+---
+
+## 🔍 Advanced Insights
+
+* TV Shows saw significant growth after 2016, indicating increased investment in long-form content
+* Netflix expanded globally with increasing international content
+* Content strategy shifted from quantity to diversified categories
+
 ---
 
 ## 📂 Dataset
 
-* Source: [Kaggle — Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+* Source: Kaggle — Netflix Movies and TV Shows
 * Rows: 8807
 * Columns: 12
 
@@ -65,7 +98,7 @@ This project performs **Exploratory Data Analysis (EDA)** on Netflix Movies & TV
 * Pandas
 * Matplotlib
 * Seaborn
-* Jupyter Notebook (VS Code)
+* Jupyter Notebook
 
 ---
 
@@ -74,9 +107,7 @@ This project performs **Exploratory Data Analysis (EDA)** on Netflix Movies & TV
 ```
 netflix-eda/
 ├── data/
-│   └── netflix_titles.csv
 ├── images/
-│   └── (charts PNGs)
 ├── netflix_eda.ipynb
 ├── requirements.txt
 └── README.md
@@ -95,7 +126,7 @@ jupyter notebook netflix_eda.ipynb
 
 ## ⭐ Conclusion
 
-This analysis highlights Netflix’s strategic focus on **global expansion, mature content, and movie-dominant catalog**, providing insights into how streaming platforms optimize engagement.
+This project highlights Netflix’s strategy of focusing on global expansion, mature content, and increasing investment in TV shows for long-term engagement.
 
 ---
 
